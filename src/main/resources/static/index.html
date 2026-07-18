@@ -6,7 +6,6 @@
     <title>Document</title>
      <link rel="stylesheet" href="index.css">
 </head>
-   <script src="index.js"></script>
 <body>
     <!-- <h1>hiiiiiiiiiiiii</h1>     -->
     <!-- <h2>this site is running live</h2> -->
@@ -17,10 +16,11 @@
         <a href="https://autosuggest-spring-898q.onrender.com">Autosuggest</a>
      </div>
      <div class="card">
-         <img src="john.png" alt="image not found">
-         <h3 id="username">John Doe</h3>
-         <p>Male</p>
-         <button>Toggle User</button>
+         <img id="user-image" src="john.png" alt="image not found">
+         <h3 id="user-name">John Doe</h3>
+         <p id="user-gender">Male</p>
+
+         <button onclick="toggleUser()">Toggle User</button>
          <br>
          <br>
          <button>Random User</button>
