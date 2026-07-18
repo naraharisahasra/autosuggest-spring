@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color:rgb(179, 201, 179);
 }
 h1{
     color:darkseagreen;
@@ -11,10 +12,48 @@ h1{
     border-color: gray;
     padding: 20px;
     text-align: center;
+    background-color: white;
 }
 
 .navbar a{
     padding: 20px;
     text-decoration:none;
     color: black;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    color:rgb(98, 112, 79);
+    background-color:none;
+}
+
+.card{
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px; 
+}
+
+.card img{
+    width: 100%;;
+}
+
+.card button{
+    padding: 10px;
+    width: 80%;
+    border-radius: 6px;
+    border-style:none;
+    background-color:rgb(244, 226, 191);
+}
+
+.card button:hover{
+    background-color:rgb(197, 172, 125);
+    cursor: pointer;
 }
